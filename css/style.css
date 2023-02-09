@@ -3,3 +3,56 @@
     padding:0;
     box-sizing: border-box;
 }
+
+html{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+/* UTILITY */
+.d-flex{
+    display: flex;
+}
+.debug{
+    border: 2px solid white;
+}
+
+/* HEADER */
+.view-settings{
+    justify-content: flex-end;
+}
+
+.view-settings > a{
+    color: white;
+}
+
+/* MAIN */
+main{
+    width: 80%;
+    margin: auto;
+}
+.user{
+    max-width: calc((100% / 7) - 10px);
+    
+}
+.user-container{
+    flex-wrap: wrap;
+    gap:5px;
+    margin-top: 80px;
+}
+
+img{
+    width: 100%;
+}
+
+/* FOOTER */
+footer{
+    margin-top:150px;
+}
+.sub-nav{
+    justify-content: space-between;
+}
+a{
+    color:white;
+}
