@@ -10,6 +10,10 @@ html{
     background-color: black;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* UTILITY */
 .d-flex{
     display: flex;
@@ -21,10 +25,16 @@ html{
 /* HEADER */
 .view-settings{
     justify-content: flex-end;
+    gap: 20px;
+    margin: 10px 10px 0 0;
 }
 
 .view-settings > a{
     color: white;
+    text-decoration: none;
+    background-color: grey;
+    border-radius: 5px;
+    padding:5px;
 }
 
 /* MAIN */
@@ -54,5 +64,9 @@ footer{
     justify-content: space-between;
 }
 a{
+    color:white;
+    text-decoration: none;
+}
+i{
     color:white;
 }
