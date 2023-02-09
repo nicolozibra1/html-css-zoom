@@ -66,33 +66,48 @@ img{
 }
 /* FOOTER */
 footer{
+    margin-top:110px;
+    background-color: #222222;
 }
 .sub-nav{
     justify-content: space-between;
 }
-.commands{
+.commands, .utility{
     align-items: center;
 }
 a{
-    color:white;
     text-decoration: none;
 }
 i{
     color:white;
 }
-.audio-settings, .video-settings{
+.audio-settings, .video-settings, .utility-items{
     flex-direction: column;
     align-items: center;
     padding:10px;
-}
-.audio, .video{
-    font-size: 20px;
-}
-
-.mute-command, .stop-video{
     color: white;
+}
+.icon{
+    font-size: 25px;
+}
+.b-text{
+    font-size: 12px;
+    padding-top:5px;
 }
 .moresettings{
     font-size:10px;
     padding:10px;
+}
+.fa-share-from-square{
+    color: green;
+}
+.end-call{
+    justify-content: center;
+    align-items: center;
+    background-color:#4a4a4a;
+}
+.end-call > a{
+    color:red;
+    padding:10px;
+    font-size:12px;
 }
