@@ -66,10 +66,12 @@ img{
 }
 /* FOOTER */
 footer{
-    margin-top:150px;
 }
 .sub-nav{
     justify-content: space-between;
+}
+.commands{
+    align-items: center;
 }
 a{
     color:white;
@@ -77,4 +79,20 @@ a{
 }
 i{
     color:white;
+}
+.audio-settings, .video-settings{
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+}
+.audio, .video{
+    font-size: 20px;
+}
+
+.mute-command, .stop-video{
+    color: white;
+}
+.moresettings{
+    font-size:10px;
+    padding:10px;
 }
