@@ -42,20 +42,28 @@ main{
     width: 80%;
     margin: auto;
 }
-.user{
-    max-width: calc((100% / 7) - 10px);
-    
-}
 .user-container{
     flex-wrap: wrap;
     gap:5px;
     margin-top: 80px;
 }
-
+.user{
+    max-width: calc((100% / 7) - 10px);
+    position:relative;
+    
+}
 img{
     width: 100%;
 }
-
+.mic-name{
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    color: white;
+    font-size: small;
+    background-color: rgba(128, 128, 128, 0.3);
+    padding: 5px;;
+}
 /* FOOTER */
 footer{
     margin-top:150px;
